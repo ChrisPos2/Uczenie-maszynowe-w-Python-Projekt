@@ -3,7 +3,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.svm import LinearSVC
 
-
 # Przygotowanie danych treningowych
 data = pd.read_csv('dane_treningowe.csv')  # Zakładamy, że dane treningowe są w formacie CSV
 X = data['tekst']  # Kolumna z tekstami
