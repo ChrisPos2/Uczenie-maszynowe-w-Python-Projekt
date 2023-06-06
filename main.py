@@ -24,9 +24,6 @@ classifier.fit(X_train_vectors, y_train)
 # Predykcja na danych testowych
 predictions = classifier.predict(X_test_vectors)
 
-# Ocena dokładności klasyfikatora
-accuracy = accuracy_score(y_test, predictions)
-print("Dokładność klasyfikatora: {:.2f}%".format(accuracy * 100))
 
 # Wprowadzenie opisu filmu przez użytkownika
 opis = input("Wprowadź opis filmu: ")
