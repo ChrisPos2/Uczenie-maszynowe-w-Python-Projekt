@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.svm import LinearSVC
-from sklearn.metrics import accuracy_score
+
 
 # Przygotowanie danych treningowych
 data = pd.read_csv('dane_treningowe.csv')  # Zakładamy, że dane treningowe są w formacie CSV
